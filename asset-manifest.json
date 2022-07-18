@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/CalebAurand/business-card.git/static/css/main.ae56f492.css",
+    "main.js": "/CalebAurand/business-card.git/static/js/main.d7d51ad5.js",
+    "static/js/787.bc412fff.chunk.js": "/CalebAurand/business-card.git/static/js/787.bc412fff.chunk.js",
+    "static/media/headshot1.jpg": "/CalebAurand/business-card.git/static/media/headshot1.78f2412454982fc4c93b.jpg",
+    "static/media/linkedin.svg": "/CalebAurand/business-card.git/static/media/linkedin.5c83b128790dead4c829eb7cc9954161.svg",
+    "static/media/email.svg": "/CalebAurand/business-card.git/static/media/email.09f59b228b67847fa9c917396a218b25.svg",
+    "index.html": "/CalebAurand/business-card.git/index.html",
+    "static/media/github.svg": "/CalebAurand/business-card.git/static/media/github.6b128a9af225878ee620c71c4ccf182b.svg",
+    "main.ae56f492.css.map": "/CalebAurand/business-card.git/static/css/main.ae56f492.css.map",
+    "main.d7d51ad5.js.map": "/CalebAurand/business-card.git/static/js/main.d7d51ad5.js.map",
+    "787.bc412fff.chunk.js.map": "/CalebAurand/business-card.git/static/js/787.bc412fff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae56f492.css",
+    "static/js/main.d7d51ad5.js"
+  ]
+}
