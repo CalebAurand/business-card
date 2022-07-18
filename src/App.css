@@ -1,32 +1,169 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  color: white;
 }
+
+.App {
+  text-align: center;
+  background-color: #23252C;
+  /* min-width: none; */
+  /* max-width: 700px; */
+  margin: auto;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s alternate-reverse;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header {
   align-items: center;
+  /* min-width: 300px; */
+  /* max-width: 400px; */
+  /* background-color: #1A1B21; */
+}
+
+.header-content {
+  min-width: 300px;
+  max-width: 400px;
+  background-color: #1A1B21;
+  width: 35vw;
+  margin: auto;
+  padding-top: 8px;
+  padding-bottom: 18px;
+  /* font-family: arial; */
+}
+
+.job-title {
+  color: orange;
+  font-weight: 400;
+}
+
+.website-box > p {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.website-box > p > span {
+  /* margin-left: 2vw; */
+  margin-right: 3vw;
+
+}
+
+.headshot {
+  min-width: 300px;
+  max-width: 400px;
+  width: 35vw;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  margin-top: 10px;
+}
+
+.button-container > a > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  max-width: 125px;
+  height: 8vh;
+  min-height: 32px;
+  max-height: 40px;
+  border-radius: 6px;
+  line-height: 25px;
+  /* margin: auto; */
+  cursor: pointer;
+}
+
+.button-container > a {
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* .image-spacer {
+  display: flex;
+  height: 100%;
+  width: 15px;
+} */
+
+.email-img {
+  width: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.linked-in {
+  background-color: #5093E2;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.linkedin-img {
+  width: 15px;
+  margin-right: 10px;
+  background-color: white;
+  padding: 2px;
+  cursor: pointer;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+main {
+  background-color: #1A1B21;
+  text-align: left;
+  width: 35vw;
+  margin: auto;
+  height: 40vh;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+main > h4 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+}
+
+main > p {
+  padding: 10px 25px;
+  font-size: 11pt;
+}
+
+footer {
+  min-width: 300px;
+  max-width: 400px;
+  width: 35vw;
+  height: 10vh;
+  margin: auto;
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer >span> a> img {
+  width: 35px;
+  margin: 20px;
+  background-color: #918E9B;
+  padding: 3px;
+  border-radius: 2px;;
+}
+
 
 @keyframes App-logo-spin {
   from {
